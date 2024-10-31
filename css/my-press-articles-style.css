@@ -1,0 +1,277 @@
+/* =css for option page
+-------------------------------------------------------------- */
+.my_press_articles_settings_header {
+ width:97%;
+ font-size:26px;
+ margin-left:3%;
+ margin-top:1%;
+ margin-bottom:2%;
+}
+
+.main_mypress {
+ width:936px;
+}
+
+.left_mypress, .right_mypress {
+ float:left;
+ padding-left:5px;
+ padding-right:5px;
+ width:563px;
+}
+
+.right_mypress {
+ float:right;
+ width:350px;
+}
+
+.my_press_login, .my_press_quick_note, .my_press_analytic, .my_press_social_buttons, .my_press_relatred_posts_feature, .my_press_comment_link, .my_press_articles_help, .my_press_recommend, .my_press_articles_share_plugins {
+ font-size:15px;
+ padding-left:3px;
+ font-weight:bold;
+ margin-top:0px;
+ background-color:#ffffff;
+}
+
+hr.mypress {
+ width:100%;
+ display:block;
+ margin-top:3px;
+ margin-bottom:6px;
+}
+
+.my-press-table {
+ background-color:white;
+}
+
+.option {
+ padding-left:6px;
+ padding-right:6px;
+ width:326px;
+}
+
+.option a {
+ color:red;
+}
+
+/* =css for widget
+-------------------------------------------------------------- */
+
+.my_press_widgets_wraps {
+ background-color:#ffffff;
+ width:100%;
+ margin-top:1%;
+ margin-bottom:3%;
+ margin-left:1%;
+ padding:3%;
+ height:153px;
+}
+
+.my_press_social_widgets_wraps {
+ float:left;
+}
+
+.my_press_facebook_fanpage_widgets_wraps {
+ background-color:#ffffff;
+ width:95%;
+ margin-top:3%;
+ margin-bottom:3%;
+ padding-left:3%;
+ padding-right:auto;
+ padding-top:3%;
+ padding-bottom:3%;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+}
+
+.my_press_articles_sidebar_widgets_header {
+ width:100%;
+ height : 83px;
+ margin-top:0;
+ margin-bottom:0;
+ background-image:url('sharewidgetsidebar.png');
+ background-repeat:no-repeat;
+}
+
+.my_press_articles_sticky_widgets_header {
+ width:90%;
+ height : 23px;
+ color:#ffffff;
+ text-align:center;
+ font-weight:bold;
+ font-size:23px;
+ padding:3% 5% 3% 5%;
+ background-image:url('featureposts.png');
+ background-repeat:repeat;
+}
+
+.my_press_articles_sticky_posts_widget {
+ position:relative;
+ display:block;
+ width:100%;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:6px;
+ margin-bottom:3px;
+}
+
+.my_press_articles_sticky_posts_img_wraps {
+ float:left;
+ margin-right:1px;
+ margin-bottom:3px;
+ height:100px;
+ width:100px;
+ padding:3px 3px 3px 3px;
+ border:1px dashed #ffffff;
+}
+
+.my_press_articles_sticky_posts_img_wraps:hover {
+ border:1px solid red;
+}
+
+.my_press_articles_sticky_posts_text_wraps {
+ float:left;
+ font-size:17px;
+ width:50%;
+ height:100px;
+ margin-bottom:3px;
+ padding:2% 1% 1% 3%;
+ overflow:hidden;
+}
+
+.my_press_articles_sticky_posts_text_wraps a {
+ text-decoration:none;
+ color:red;
+}
+
+.my_press_articles_sticky_posts_text_wraps a:hover {
+ text-decoration:underline;
+}
+
+.my_press_articles_widget_seperator{
+ border:1px inset #41383C;
+ width:100%;
+ margin:3px auto 3px auto;
+}
+
+/* =css for quick note
+-------------------------------------------------------------- */
+.my_press_note {
+ width:90%;
+ padding-left:3%;
+ padding-right:3%;
+ padding-top:3%;
+ padding-bottom:3%;
+ margin:2%;
+ font-size:19px;
+ background-color:yellow;
+ display:block;
+ float:left;
+}
+
+.my_press_note a {
+ color:blue;
+}
+
+/* =css for related posts
+-------------------------------------------------------------- */
+.my_press_articles_related_post_main_wraps {
+ padding:3px 3px 3px 10px;
+ font-size:19px;
+}
+.my_press_articles_related_post_heading {
+ float:left;
+ width:100%;
+ margin-bottom:0;
+}
+
+
+/* =css for content share button
+-------------------------------------------------------------- */
+
+.my-press-share-buttons-main-content-area {
+  margin-top:3px;
+  margin-bottom:3px;
+  float:left;
+  width:100%;
+  display:block;
+}
+
+/* =css for short code
+-------------------------------------------------------------- */
+
+.my-press-share-buttons-main {
+  margin-top:1px;
+  margin-bottom:1px;
+  width:100%;
+  float:left;
+  display:block;
+}
+
+.my-press-share-buttons {
+  float:left;
+  padding:2px;
+  margin-top:1px;
+}
+
+#mypressback-map-ground {
+  display:none;
+  position:fixed;
+  background-color:#ffffff;
+  opacity:0.9;
+  filter:alpha(opacity=30);
+  top:0px;
+  left:0px;
+  min-width:100%;
+  min-height:100%;
+  z-index:1000;
+}
+
+#mypress-panel {
+  display:none;
+  position:fixed;
+  top:25%;
+  left:33%;
+  color:#302217;
+  background-color:#ffffff;
+  padding:3px 3px 3px 3px;
+  z-index:1001;
+}
+
+#mypress-panel a#close-panel {
+  float:right;
+  text-decoration:none;
+  background-color:#ffffff;
+  color:#804000;
+}
+
+/* =css for optimizer
+-------------------------------------------------------------- */
+
+div.intro-clean-it-up {
+	font-size: 16px;
+	line-height: 19px;
+	text-align: justify;
+	padding: 10px 10px 10px 10px;
+	background-color: yellow;
+	outline: 6px dotted #999;
+}
+
+h3.clean-up-header {
+	font-style: italic;
+	line-height: 19px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.clean-it-up-body {
+	font-size: 15px;
+}
+
+.clean-it-up-table {
+	font-weight:bold;
+}
+
+.clean-it-up-button {
+	margin-top: 13px;
+}

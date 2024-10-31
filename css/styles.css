@@ -1,0 +1,32 @@
+/* =css for map overlay element
+-------------------------------------------------------------- */
+#mypressback-map-ground {
+  display:none;
+  position:fixed;
+  background-color:#ffffff;
+  opacity:0.9;
+  filter:alpha(opacity=30);
+  top:0px;
+  left:0px;
+  min-width:100%;
+  min-height:100%;
+  z-index:1000;
+}
+
+#mypress-panel {
+  display:none;
+  position:fixed;
+  top:25%;
+  left:33%;
+  color:#302217;
+  background-color:#ffffff;
+  padding:3px 3px 3px 3px;
+  z-index:1001;
+}
+
+#mypress-panel a#close-panel {
+  float:right;
+  text-decoration:none;
+  background-color:#ffffff;
+  color:#804000;
+}
